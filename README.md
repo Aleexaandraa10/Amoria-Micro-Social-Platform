@@ -13,10 +13,10 @@ Acest proiect a fost realizat în cadrul materiei **Dezvoltarea Aplicațiilor We
    -  Vizitator neînregistrat
    -  Utilizator înregistrat
    -  Administrator (control total asupra conținutului platformei)
- **Creare și editare profil personal** *(nume, descriere, poza de profil, vizibilitate public/privat)*
- **Căutare utilizatori după nume complet sau părți din nume**
- **Vizualizarea profilurilor private doar cu informații de bază (nume, descriere, imagine profil)**
- **Sistem de cereri de prietenie (follow), în funcție de vizibilitatea profilului**
+       - **Creare și editare profil personal** *(nume, descriere, poza de profil, vizibilitate public/privat)*
+       - **Căutare utilizatori după nume complet sau părți din nume**
+       - **Vizualizarea profilurilor private doar cu informații de bază (nume, descriere, imagine profil)**
+       - **Sistem de cereri de prietenie (follow), în funcție de vizibilitatea profilului**
 
 ### 📢 **Postări și interacțiuni**
 - **Creare, editare și ștergere postări** *(text, imagini, video embedded)*
