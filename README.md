@@ -1,101 +1,98 @@
-# Amoria - Micro-Social Platform
+# Amoria - Micro-Social Platform  
 
-## 📖 Descriere
-**Amoria** este o platformă de tip **micro-rețea socială**, dezvoltată în **C# și ASP.NET Core**, care oferă utilizatorilor posibilitatea de a interacționa, crea conexiuni și distribui conținut, într-un mediu intuitiv și sigur. Inspirată de platforme precum Facebook și Instagram, **Amoria** pune accent pe **gestionarea vizibilității profilului, interacțiunea prin postări, comentarii, grupuri private și relații de prietenie**.
+## 📖 Description  
+**Amoria** is a **micro-social network** platform, developed using **C# and ASP.NET Core**, allowing users to interact, create connections, and share content in an intuitive and secure environment. Inspired by platforms like Facebook and Instagram, **Amoria** focuses on **profile visibility management, interactions through posts, comments, private groups, and friendship relations**.  
 
-Acest proiect a fost realizat în cadrul materiei **Dezvoltarea Aplicațiilor Web**, respectând cerințele impuse și implementând toate funcționalitățile esențiale. **Echipa noastră a lucrat colaborativ, utilizând Trello pentru gestionarea task-urilor și Google Meet, Discord și WhatsApp pentru comunicare eficientă.**
+This project was developed as part of the **Web Application Development** course, adhering to all requirements and implementing essential functionalities. **Our team worked collaboratively, using Trello for task management and Google Meet, Discord, and WhatsApp for effective communication.**  
 
----
+---  
 
-## 🚀 **Funcționalități implementate**
-### 👤 **Gestionarea utilizatorilor**
- **Trei tipuri de utilizatori:**
-   -  Vizitator neînregistrat
-   -  Utilizator înregistrat
-   -  Administrator (control total asupra conținutului platformei)
-       - **Creare și editare profil personal** *(nume, descriere, poza de profil, vizibilitate public/privat)*
-       - **Căutare utilizatori după nume complet sau părți din nume**
-       - **Vizualizarea profilurilor private doar cu informații de bază (nume, descriere, imagine profil)**
-       - **Sistem de cereri de prietenie (follow), în funcție de vizibilitatea profilului**
+## 🚀 **Implemented Features**  
+### 👤 **User Management**  
+**Three types of users:**  
+- Unregistered visitor  
+- Registered user  
+- Administrator (full control over platform content)  
 
-### 📢 **Postări și interacțiuni**
-- **Creare, editare și ștergere postări** *(text, imagini, video embedded)*
-- **Comentarii la postări, editabile și șterse doar de proprietar**
-- **Administratorul poate șterge conținut inadecvat**
+**Key functionalities:**  
+- **Create and edit personal profile** *(name, description, profile picture, public/private visibility)*  
+- **Search users by full name or partial name**  
+- **View private profiles with basic information only (name, description, profile picture)**  
+- **Friend request system (follow), depending on profile visibility**  
 
-### 👥 **Grupuri și comunicare**
-- **Crearea și administrarea grupurilor** *(denumire, descriere, moderator)*
-- **Alăturarea la grupuri doar cu cont activ și aprobat de moderator**
-- **Mesaje private în grupuri, editabile doar de autor**
-- **Posibilitatea de a părăsi grupurile sau a fi eliminat de moderator**
+### 📢 **Posts and Interactions**  
+- **Create, edit, and delete posts** *(text, images, embedded videos)*  
+- **Comment on posts, with editing and deletion allowed only for the owner**  
+- **Administrator can remove inappropriate content**  
 
----
+### 👥 **Groups and Communication**  
+- **Create and manage groups** *(name, description, moderator)*  
+- **Join groups only with an active account and moderator approval**  
+- **Private group messaging, with messages editable only by the author**  
+- **Ability to leave groups or be removed by a moderator**  
 
-## 🛠 **Tehnologii utilizate**
-- **C# & ASP.NET Core** - Backend robust și scalabil
-- **Entity Framework Core** - Gestionarea bazei de date
-- **SQL Server** - Stocarea datelor utilizatorilor
-- **Bootstrap & CSS** - Interfață modernă și responsive
-- **JavaScript & jQuery** - Funcționalități dinamice pe frontend
+---  
 
----
+## 🛠 **Technologies Used**  
+- **C# & ASP.NET Core** - Robust and scalable backend  
+- **Entity Framework Core** - Database management  
+- **SQL Server** - User data storage  
+- **Bootstrap & CSS** - Modern and responsive UI  
+- **JavaScript & jQuery** - Dynamic frontend functionalities  
 
-## 🎯 **Metodologie & Organizare**
- **Planificare prin sprinturi** – Fiecare etapă a fost organizată în sprinturi săptămânale, cu scopuri clar definite:
-- **Săptămâna 1** – Diagrama ER, clarificarea cerințelor, setarea mediului
-- **Săptămâna 2-3** – Dezvoltarea modelelor și controllerelor
-- **Săptămâna 4-5** – Implementarea interfeței și testare
+---  
 
-📌 **Utilizarea Trello pentru organizare** – Am urmărit progresul și ne-am distribuit task-urile echitabil.
+## 🎯 **Methodology & Organization**  
+**Sprint-based planning** – Each stage was organized into weekly sprints with clearly defined goals:  
+- **Week 1** – ER diagram, requirement clarification, environment setup  
+- **Weeks 2-3** – Development of models and controllers  
+- **Weeks 4-5** – UI implementation and testing  
 
-🗣️ **Comunicare eficientă** prin **Google Meet, Discord, WhatsApp** – Am lucrat sincronizat, discutând dificultățile și soluțiile în timp real.
+📌 **Trello for task tracking** – We monitored progress and distributed tasks fairly.  
 
-🎨 **Branding & Identitate** – Am realizat un **logo personalizat** pentru Amoria, adăugând un plus de profesionalism proiectului.
+🗣️ **Efficient communication** via **Google Meet, Discord, WhatsApp** – We worked in sync, discussing challenges and solutions in real time.  
 
----
+🎨 **Branding & Identity** – We designed a **custom logo** for Amoria, adding professionalism to the project.  
 
-## 📌 **Provocări și soluții**
- **Inițial, am încercat să folosim Docker**, însă am întâmpinat dificultăți tehnice care ne-au făcut să revenim la o abordare clasică pentru a ne eficientiza munca.
+---  
 
- **Implementarea grupurilor și gestionarea relațiilor între utilizatori** – A necesitat o abordare iterativă, ajustând codul în funcție de testări și feedback.
+## 📌 **Challenges and Solutions**  
+- **Initially, we tried using Docker**, but faced technical difficulties, leading us to switch to a traditional setup for better efficiency.  
+- **Implementing groups and managing user relationships** required an iterative approach, refining the code based on testing and feedback.  
+- **Optimizing the database and managing model relationships** – We used efficient indexing and relationship techniques to enhance performance.  
 
- **Optimizarea bazei de date și gestionarea relațiilor între modele** – Am folosit tehnici eficiente de indexare și relaționare pentru a optimiza performanța.
+---  
 
----
-
-## 🔧 **Cum se rulează proiectul**
-1. **Clonează repository-ul:**
+## 🔧 **How to Run the Project**  
+1. **Clone the repository:**  
    ```sh
-   git clone https://github.com/utilizatorul-tau/Amoria.git
+   git clone https://github.com/your-username/Amoria.git
    ```
-2. **Navighează în folderul proiectului:**
+2. **Navigate to the project folder:**  
    ```sh
    cd Amoria
    ```
-3. **Instalează dependențele și rulează serverul:**
+3. **Install dependencies and run the server:**  
    ```sh
    dotnet restore
    dotnet run
    ```
-4. **Accesează aplicația în browser:**
+4. **Access the application in your browser:**  
    ```
    http://localhost:5000
-   ```
+   ```  
 
----
+---  
 
-## 🎓 **Experiență de învățare și concluzii**
- Acest proiect a fost mai mult decât o cerință academică – ne-a oferit **oportunitatea de a lucra în echipă, de a ne organiza eficient și de a implementa o aplicație complexă, similară cu rețelele sociale moderne.**
+## 🎓 **Learning Experience and Conclusions**  
+This project was more than just an academic requirement – it provided **an opportunity to work as a team, organize efficiently, and develop a complex application similar to modern social networks.**  
 
-💡 **Ne-am dezvoltat abilități esențiale precum:**
-- Lucru colaborativ într-un mediu structurat
-- Utilizarea unui framework backend performant (**ASP.NET Core**)
-- Gestionarea bazelor de date relaționale cu **Entity Framework Core**
-- Implementarea principiilor **MVC (Model-View-Controller)**
+💡 **Key takeaways:**  
+- Collaborative work in a structured environment  
+- Using a powerful backend framework (**ASP.NET Core**)  
+- Managing relational databases with **Entity Framework Core**  
+- Implementing **MVC (Model-View-Controller) principles**  
 
-📌 **Toate funcționalitățile cerute au fost implementate cu succes și am învățat cum să abordăm provocările tehnice în mod profesionist.**
+📌 **All required functionalities were successfully implemented, and we learned how to tackle technical challenges professionally.**  
 
-🔹 **Acesta este doar începutul – Amoria reprezintă o platformă în continuă dezvoltare, iar posibilitățile de extindere sunt nelimitate!** 🚀
-
-
-
+🔹 **This is just the beginning – Amoria is a continuously evolving platform with limitless expansion possibilities!** 🚀
