@@ -3,7 +3,7 @@
 ## 📖 Description  
 **Amoria** is a **micro-social network** platform, developed using **C# and ASP.NET Core**, allowing users to interact, create connections, and share content in an intuitive and secure environment. Inspired by platforms like Facebook and Instagram, **Amoria** focuses on **profile visibility management, interactions through posts, comments, private groups, and friendship relations**.  
 
-This project was developed as part of the **Web Application Development** course, adhering to all requirements and implementing essential functionalities. **Our team worked collaboratively, using Trello for task management and Google Meet, Discord, and WhatsApp for effective communication.**  
+This project was developed as part of the **Web Application Development** course, adhering to all requirements and implementing essential functionalities. **Our team worked collaboratively, using Trello for task management and Google Meet and Discord for effective communication.**  
 
 ---  
 
